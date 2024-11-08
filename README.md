@@ -22,7 +22,7 @@ Please go to `generate-syntext/` directory and run
 python datagen.py
 ```
 
-#### Step 2: Outer Loop Training
+#### Step 2: Training Diffusion model with Syntext dataset
 Before training the noise model, please initialize the weight from the pretrained [text2img](https://github.com/CompVis/latent-diffusion) from Latent Diffusion Model. Then, go to `outer-loop/` directory and run
 ```
 python finetune.py
