@@ -2,10 +2,8 @@
 ![teaser](assets/teaser.png)
 
 ## News
-**2023.02.05** Pre-Release code :partying_face: :partying_face:
-
-## TO-DO Lists
-- [ ] Upload pre-trained weight 
+**2024.11.08** Pretrained weights can be downloaded [here](https://drive.google.com/file/d/1RCsh1RRZigIDwRpw8RjeL562DLtkFYbz/view?usp=drive_link)
+**2024.02.05** Pre-Release code :partying_face: :partying_face:
 
 ## Requirements
 1. In our implementation, we use text2image pre-trained weight from [Latent Diffusion Model (LDM)](https://github.com/CompVis/latent-diffusion). Please download the pre-trained weight from their official github. Alternatively, you can use directly from [Diffusers](https://huggingface.co/docs/diffusers/index) library (version 0.3.0).
