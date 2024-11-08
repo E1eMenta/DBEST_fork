@@ -3,6 +3,7 @@
 
 ## News
 **2024.11.08** Pretrained weights can be downloaded [here](https://drive.google.com/file/d/1RCsh1RRZigIDwRpw8RjeL562DLtkFYbz/view?usp=drive_link)
+
 **2024.02.05** Pre-Release code :partying_face: :partying_face:
 
 ## Requirements
