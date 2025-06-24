@@ -30,7 +30,7 @@ MY_TOKEN = "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"
 NUM_DDIM_STEPS = 50
 GUIDANCE_SCALE = 5.0
 MAX_NUM_WORDS = 77
-device = "cpu"
+device = "cuda"
 # device = torch.device('cpu')
 ldm = DiffusionPipeline.from_pretrained("CompVis/ldm-text2im-large-256", scheduler=scheduler).to(device)
 PNDM_scheduler = PNDMScheduler(beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear")

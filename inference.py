@@ -19,7 +19,7 @@ class DBESTTextModulator:
         pretrained_weight_path="ft_et_text_syntext4chars_100k.ckpt",
         yaml_file="train_abinet.yaml",
         checkpoint_tr="best-train-abinet.pth",
-        device="cpu",
+        device="cuda",
         seed=888,
     ):
         """
@@ -202,7 +202,7 @@ def main():
         pretrained_weight_path="ft_et_text_syntext4chars_100k.ckpt",
         yaml_file="train_abinet.yaml",
         checkpoint_tr="best-train-abinet.pth",
-        device="cpu",
+        device="cuda",
         seed=888,
     )
 
