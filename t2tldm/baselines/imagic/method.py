@@ -5,6 +5,7 @@ import random
 import os 
 from fastai.vision import *
 import torch
+from torch import nn
 import torchvision.utils as tvu
 import math
 
