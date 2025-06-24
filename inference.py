@@ -32,7 +32,6 @@ class DBESTTextModulator:
             device: Computation device
             seed: Random seed for reproducibility
         """
-        # Store configuration
         self.device = device
         self.seed = seed
         self.yaml_file = yaml_file
